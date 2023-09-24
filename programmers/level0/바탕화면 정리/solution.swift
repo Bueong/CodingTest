@@ -17,5 +17,6 @@ func solution(_ wallpaper:[String]) -> [Int] {
     }
     startPoint.map { result.append($0) }
     endPoint.map { result.append($0 + 1) }
+    
     return result
 }
